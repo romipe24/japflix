@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       console.log("Datos cargados correctamente:", data); // Verificar si se cargan los datos
       movieData = data;
-      // Mostrar las películas al cargar la página
-      mostrarPeliculas(movieData);
     })
     .catch(error => {
       console.error("Error al cargar los datos:", error);
